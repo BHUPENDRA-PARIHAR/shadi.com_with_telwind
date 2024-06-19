@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./CSS/media.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>Matrimonial Site</title>
+    <link rel="icon" href="./image/images.png">
+</head>
+<body>
+    <header class="bg-[url('./image/shaadi-desktop-banner-v1.webp')] bg-center bg-cover pb-40px">
+         <div class="container  p-[30px_20px_15px_0px] ">
+            <div class="nav flex justify-between items-center">
+            <figure class="logo">
+                <img src="https://img2.shaadi.com/assests/2021/images/Matrimony-Service-by-Shaadi.com.png" alt="">
+            </figure>
+            <ul class="flex text-[white]">
+                <li class="px-3">
+                    <span>Login</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </li>
+                <li>
+                    <i class="fa-solid fa-headphones px-3"></i>
+                    <span>Help</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </li>
+            </ul>
+        </div>
+        <h1 class="text-[white] lg:text-[35px] md:text-[28px] text-[24px] text-center lg:mt-[300px] mt-[150px] mb-[20px] main-head">Trusted Matrimony & Matchmaking Service</h1>
+        <div class="container header-form bg-[rgba(0,0,0,0.3)] p-[30px_20px] rounded-[6px]">
+            <form action="" class="grid lg:grid-cols-[4fr_4fr_1fr]">
+                 <div class="grid lg:grid-cols-[4fr_5fr] gap-10px">
+                    <div>
+                        <label for="" class="block text-[white] mb-[6px]">I am Looking For a</label>
+                        <select name="" id="" class="w-full p-[8px_3px] rounded-[6px]">
+                            <option>Woman</option>
+                            <option>Man</option>
+                        </select>
+                    </div>
+                    <div class="ms-3">
+                        <label for="" class="block text-[white] mb-[6px]">Aged</label>
+                        <div class="flex justify-between">
+                        <select name="" id="" class="w-[40%] p-[8px_0px] rounded-[6px]">
+                            <option>25</option>
+                            <option>30</option>
+                            <option>35</option>
+                            <option>40</option>
+                            <option>45</option>
+                            <option>50</option>
+                        </select>
+                        <div class="text-[white] text-center inline-block">To</div>
+                        <select name="" id="" class="w-[40%] p-[8px_0px] rounded-[6px]">
+                            <option>25</option>
+                            <option>30</option>
+                            <option>35</option>
+                            <option>40</option>
+                            <option>45</option>
+                            <option>50</option>
+                        </select>
+                    </div>
+                    </div>
+                 </div>
+                 <div class="grid grid-cols-[2fr_3fr] gap-[20px] ms-3">
+                    <div>
+                        <label for="" class="mb-[6px] text-[white] block">of religion</label>
+                        <select name="" id="" class="w-full p-[8px_3px] rounded-[6px]">
+                            <option value="">Select Religion</option>
+                            <option value="">Hindu</option>
+                            <option value="">Muslim</option>
+                            <option value="">Sikh</option>
+                            <option value="">Christian</option>
+                            <option value="">Parsi</option>
+                            <option value="">Jain</option>
+                            <option value="">Buddisht</option>
+                            <option value="">Jewish</option>
+                            <option value="">No Religion</option>
+                            <option value="">Spiritual</option>
+                            <option value="">other</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="" class="mb-[6px] text-[white] block">and Mother tongue</label>
+                        <select name="" id="" class="w-full p-[8px_3px] rounded-[6px]">
+                            <option value="">Select</option>
+                            <option value="">Hindi</option>
+                            <option value="">Mrathi</option>
+                            <option value="">Panjabi</option>
+                            <option value="">Bengali</option>
+                            <option value="">Gujrati</option>
+                            <option value="">Urdu</option>
+                            <option value="">Telgu</option>
+                            <option value="">Tamil</option>
+                            <option value="">Oriva</option>
+                            <option value="">Kannad</option>
+                            <option value="">other</option>
+                        </select>
+                    </div>
+                 </div>
+                 <div class="flex items-end ps-3 mt-[10px]">
+                    <button class="bg-[rgba(0,154,175)] py-[8px] w-full rounded-[6px] text-[white] ">Let's Begin</button>
+                 </div>
+            </form>
+        </div>
+        </div>
+    </header>
+    <main>
+        <section class="banner bg-[#F1F1F2] py-[80px]">
+            <div class="container bg-[#201530] p-[10px_30px] grid grid-cols-[7fr_4fr] rounded-[20px]">
+                <div class="left border-r">
+                    <p class="text-[#D2B17C] text-[35px] font-[500] card-text">Exclusive & Personalised Matchmaking by Shaadi.com</p>
+                    <ul class="flex text-[white] pt-[20px]">
+                        <li class="border-r px-[10px] hover:underline">Top Rated Consultants</li>
+                        <li class="border-r px-[8px] hover:underline">5 times higher success rates</li>
+                        <li class="px-[10px] hover:underline">100% Privacy </li>
+                    </ul>
+                </div>
+                <div class="p-[30px] flex flex-col justify-around">
+                    <img class="pb-[30px]" src="./image/vip_logo.webp" alt="">
+                    <button class="bg-[#D2B17C] w-full py-[10px] rounded-[8px] text-[20px] font-[500] ">Get Invited <i class="fa-solid fa-arrow-right"></i></button>
+                </div>
+            </div>
+            <div class="container pt-[80px]">
+                <p class="text-center text-[40px] text-[#FF5A60] content-heading">Find your Special Someone</p>
+            <div class="user_connection mt-[60px] grid lg:grid-cols-[1fr_1fr_1fr] place-items-center">
+            <div class="text-center lg:flex-col lg:justify-center">
+                <div class="sign_up ml-[100px] h-[140px] w-[140px] rounded-[50%] border-2 bg-[#00BCD5] flex justify-center items-center hover:bg-[#0194A8] relative">
+                    <i class="fa-regular fa-clipboard text-[50px] text-[white]"></i>
+                    <div class="text-[#FF5A60] font-[700] text-[18px] h-[25px] w-[25px] bg-[white] rounded-[50%] absolute top-[90%]">1</div>
+                </div>
+                <p class="mt-[20px] text-[24px] text-[#00BCD5] hover:underline">Sign Up</p>
+                <p class="font-[400] text-[#727290]">Register for free & put up your Matrimony Profile</p>
+            </div>
+            <div class="text-center flex-col justify-center">
+                <div class="sign_up ml-[65px] h-[140px] w-[140px] rounded-[50%] border-2 bg-[#00BCD5] flex justify-center items-center hover:bg-[#0194A8] relative">
+                    <i class="fa-regular fa-clipboard text-[50px] text-[white]"></i>
+                    <div class="text-[#FF5A60] font-[700] text-[18px] h-[25px] w-[25px] bg-[white] rounded-[50%] absolute top-[90%]">2</div>
+                </div>
+                <p class="mt-[20px] text-[24px] text-[#00BCD5] hover:underline">Connect</p>
+                <p class="font-[400] text-[#727290]">Select & Connect with Matches you like</p>
+            </div>
+            <div class="text-center flex-col justify-center">
+                <div class="sign_up ml-[100px] h-[140px] w-[140px] rounded-[50%] border-2 bg-[#00BCD5] flex justify-center items-center hover:bg-[#0194A8] relative">
+                    <i class="fa-regular fa-clipboard text-[50px] text-[white]"></i>
+                    <div class="text-[#FF5A60] font-[700] text-[18px] h-[25px] w-[25px] bg-[white] rounded-[50%] absolute top-[90%]">3</div>
+                </div>
+                <p class="mt-[20px] text-[24px] text-[#00BCD5] hover:underline">Interact</p>
+                <p class="font-[400] text-[#727290]">Become a Premium Member & Start a Conversation</p>
+            </div>
+            </div>
+            </div>
+        </section>
+        <section class="Success-story">
+            <div class="container mt-[80px]">
+                <p class="text-center text-[40px] text-[#FF5A60] content-heading">Matrimony Service with Millions of Success Stories</p>
+            <div class="mt-[60px]">
+            <div class="container">
+                <div class="owl-carousel owl-theme ceros">
+                    <div class="item hover:shadow p-[10px]">
+                        <img src="https://img.shaadi.com/success-story/5SH08058723-sSH86385783-big.jpg" alt="" height="100%" width="100%">
+                        <h1>Kevin & Reshma</h1>
+                        <p>It was a fortunate blessing for us to meet on such a platform wherein after multiple attempts it was difficult for both  valid prof.</p>
+                    </div>
+                    <div class="item hover:shadow p-[10px]">
+                        <img src="https://img.shaadi.com/success-story/pSH17372166-4SH21166601-big.jpg" alt="" height="100%" width="100%">
+                        <h1>Uma & Sandip</h1>
+                        <p>It was like Magic! We connected well in 2 months and decided to tie the knot. It seemed like everything was falling in place.</p>
+                    </div>
+                    <div class="item hover:shadow p-[10px]">
+                        <img src="https://img.shaadi.com/success-story/dSH31207176-ZSH11961004-big.jpg" alt="" height="100%" width="100%">
+                        <h1>Debapriyo & Priyanka</h1>
+                        <p>After creating the profile in Shaadi.com, I searched a lot for my partner and met with 4-5 people, but suddenly I found my soulmate  </p>
+                    </div>
+                    <div class="item hover:shadow p-[10px]">
+                        <img src="https://img.shaadi.com/success-story/6SH70538051-pramil_1975-big.jpg" alt="">
+                        <h1>Premil & Seema</h1>
+                        <p>I found my wife's profile as just joined status -free membership :).  Called her and arranged for meet. Thank you Shaadi.com.</p>
+                    </div>
+                    <div class="item hover:shadow p-[10px]">
+                        <img src="https://img.shaadi.com/success-story/ZSH79312385-zSH92805898-big.jpg" alt="" height="100%" width="100%">
+                        <h1>Nehal & Vrushali</h1>
+                        <p>Thank you so much Shaadi.com. Here I met my soulmate I really thankful Because of this app my colourless life become more colourful now.</p>
+                    </div>
+                    <div class="item hover:shadow p-[10px]">
+                        <img src="https://img.shaadi.com/success-story/8SH35607594-MSH56192544-big.jpg" alt="" height="100%" width="100%">
+                        <h1>Swapnil & Akash</h1>
+                        <p>I am an electronics engineer. After engineering I decided to work in basic education department and started working </p>
+                    </div>
+                    <div class="item hover:shadow p-[10px]">
+                        <img src="https://img.shaadi.com/success-story/8SH35607594-MSH56192544-big.jpg" alt="" height="100%" width="100%">
+                        <h1>Swapnil & Akash</h1>
+                        <p>I am an electronics engineer. After engineering I decided to work in basic education department and started working </p>
+                    </div>
+                    <div class="item hover:shadow p-[10px]">
+                        <img src="https://img.shaadi.com/success-story/fSH91609495-XSH67471253-big.jpg" alt="" height="100%" width="100%">
+                        <h1>Alankar & Megha</h1>
+                        <p>Hi It's all about our love story. Alankar was a paid member and mine was a free account. I remember it was something</p>
+                    </div>
+                    <div class="item hover:shadow p-[10px]">
+                        <img src="https://img.shaadi.com/success-story/CSH94056195-ASH42582878-big.jpg" alt="" height="100%" width="100%">
+                        <h1>Sujoy & Megha</h1>
+                        <p>I found the love of my  life  Puchu ( Ms. Meghalika Chakraborty) . Thanks for everything to meet my better half. 
+                    </div>
+                    <div class="item hover:shadow p-[10px]">
+                        <img src="https://img.shaadi.com/success-story/CSH94056195-ASH42582878-big.jpg" alt="" height="100%" width="100%">
+                        <h1>Sujoy & Megha</h1>
+                        <p>I found the love of my  life  Puchu ( Ms. Meghalika Chakraborty) . Thanks for everything to meet my better half.  </p>
+                    </div>
+                    <div class="item hover:shadow p-[10px]">
+                        <img src="https://img.shaadi.com/success-story/7SH24509998-aSH11285155-big.jpg" alt="" height="100%" width="100%">
+                        <h1>Mahima & Sooraj</h1>
+                        <p>Hello Everyone, I want to share with you the beautiful journey of how I met my soul mate, Mahima, on Shaadi.com. </p>
+                    </div>
+                    <div class="item hover:shadow p-[10px]">
+                        <img src="https://img.shaadi.com/success-story/KSH73379219-USH58704386-big.jpg" alt="" height="100%" width="100%">
+                        <h1>Dr. Shashi & Dr. Pooja</h1>         
+                        <p>In the digital age of romance, fate brought together Dr Shashi Prakash Verma and Dr Pooja Singh on Shaadi.com,</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="services">
+            <div class="bg-[#FF5A60] ">
+                <div class="container md:flex text-center p-[20px_30px] justify-evenly">
+                <h1 class="lg:text-[24px] sm:text-[18px] text-[white] main-head">Your story is waiting to happen!</h1>
+                <button class="main-head border-2 text-[white] lg:text-[18px] rounded hover:bg-[white] hover:text-[#00BCD5] shadow-md lg:py-[10px] lg:px-[40px] p-[8px_10px] transition dureation-0.2s">Get Started</button>
+            </div>
+            </div>
+            <div class="content_service mt-[50px]">
+                <h1 class="text-[40px] text-[#FF5A60] content-heading text-center" >India's No.1 Matrimony Service</h1>
+            </div>
+            <div class="container grid lg:grid-cols-[1fr_1fr_1fr] sm:[1fr] gap-[8px] px-[20px] pt-[50px]">
+                <div class="mother_tongue text-center">
+                    <h5 class="border-b pb-[10px] font-[500]">Mother Tongue</h5>
+                     <p class="text-[#B8B8BE] pt-[20px]">Bengali | Gujarati | Hindi | Kannada | Malayalam | Marathi | Odia | Punjabi | Sindhi | Tamil | Telugu</p>
+                     <p class="text-[#00BCD5] hover:underline">More Matrimonials<i class="fa-solid fa-caret-right p-[3px_2px] text-[#B8B8BE]"></i></p>
+                </div>
+                <div class="Religion text-center">
+                    <h5 class="border-b pb-[10px] font-[500]">Religion</h5>
+                    <ul class="flex justify-center pt-[20px] text-[#B8B8BE]">
+                        <li class="hover:underline">Hindu <span class="pe-[10px]">|</span></li>
+                        <li class="hover:underline">Buddhist <span class="pe-[8px]">|</span></li>
+                        <li class="hover:underline">Jain <span class="pe-[8px]">|</span></li>
+                        <li class="hover:underline">Muslim</li>
+                    </ul>
+                    <p class="text-[#00BCD5] hover:underline">More Matrimonials<i class="fa-solid fa-caret-right p-[3px_2px] text-[#B8B8BE]"></i></p>
+                </div>
+                <div class="Community text-center">
+                    <h5 class="border-b pb-[10px] font-[500]">Community</h5>
+                    <p class="text-[#B8B8BE] pt-[20px]">Adi Dravida | Arya Vysya | Brahmin | Ezhava | Iyer | Kamma | Maratha | Nadar | Nair |Reddy |Vokkaliga | Yadav</p>
+                    <p class="text-[#00BCD5] hover:underline">More Matrimonials<i class="fa-solid fa-caret-right p-[3px_2px] text-[#B8B8BE]"></i></p>
+                </div>
+            </div>
+            <div class="container flex justify-center text-center mt-[50px]">
+                <div class="lg:basis-[30%]">
+                <h5 class="border-b pb-[10px] font-[500]">Other Matrimonials</h5>
+                <p class="text-[#B8B8BE] pt-[20px]">
+                    Agarwal | Balija | Chettiar | Defence | Elite | Iyengar | Jat | Kapu | Kayastha | Lingayat | Mudaliyar | Padmashali | Pillai | Rajput | Sourashtra | Thevar | Vanniar | Vishwakarma
+                </p>
+                <p class="text-[#00BCD5] hover:underline">More Matrimonials<i class="fa-solid fa-caret-right p-[3px_2px] text-[#B8B8BE]"></i></p>
+            </div>
+            
+            </div>
+        </section>
+        <section class="app mt-[80px]">
+            <div class="bg-[#EEEEEE]">
+                <div class="container md:flex text-center p-[20px_100px] justify-evenly items-center">
+                <h1 class="lg:text-[24px] sm:text-[18px] text-[#FF5A60] main-head">Download the Matrimony App</h1>
+                <div class="flex lg:justify-between justify-center mt-[10px]">
+                <img class="me-[10px]" src="./image/8ed033800ea38f24c4f0.png" alt="" width="104px" height="31px">
+                <img src="./image/d61019073b700ca49d22.png" alt="" width="104px" height="31px">
+            </div>    
+            </div>
+            </div>
+            <div class="content_service mt-[50px]">
+                <h1 class="text-[40px] text-[#FF5A60] content-heading text-center" >India's No.1 Matrimony App</h1>
+            </div>
+            <div class="container grid lg:grid-cols-[1fr_1fr_1fr] sm:[1fr] gap-[8px] px-[20px] pt-[50px]">
+                <div class="mother_tongue text-center">
+                    <h5 class="border-b pb-[10px] font-[500]">Mother Tongue</h5>
+                     <p class="text-[#B8B8BE] pt-[20px]">Bengali | Gujarati | Hindi | Kannada | Malayalam | Marathi | Odia | Punjabi | Sindhi | Tamil | Telugu</p>
+                     <p class="text-[#00BCD5] hover:underline">More Matrimonials<i class="fa-solid fa-caret-right p-[3px_2px] text-[#B8B8BE]"></i></p>
+                </div>
+                <div class="Religion text-center">
+                    <h5 class="border-b pb-[10px] font-[500]">Religion</h5>
+                    <ul class="flex justify-center pt-[20px] text-[#B8B8BE]">
+                        <li>Hindu <span class="pe-[10px]">|</span></li>
+                        <li>Buddhist <span class="pe-[8px]">|</span></li>
+                        <li>Jain <span class="pe-[8px]">|</span></li>
+                        <li>Muslim</li>
+                    </ul>
+                    <p class="text-[#00BCD5] hover:underline">More Matrimonials<i class="fa-solid fa-caret-right p-[3px_2px] text-[#B8B8BE]"></i></p>
+                </div>
+                <div class="Community text-center">
+                    <h5 class="border-b pb-[10px] font-[500]">Community</h5>
+                    <p class="text-[#B8B8BE] pt-[20px]">Adi Dravida | Arya Vysya | Brahmin | Ezhava | Iyer | Kamma | Maratha | Nadar | Nair |Reddy |Vokkaliga | Yadav</p>
+                    <p class="text-[#00BCD5] hover:underline">More Matrimonials<i class="fa-solid fa-caret-right p-[3px_2px] text-[#B8B8BE]"></i></p>
+                </div>
+            </div>
+        </section>
+        <section class="about_us mt-[100px]">
+            <div class="container">
+            <figure class="rounded-[8px] flex justify-center">
+                <img class="rounded-[8px]" src="./image/images.png" alt="" height="95px" width="95px">
+            </figure>
+            <div class="mt-[40px] text-[#72727D] text-[14px]">
+            <p class="pb-[20px]">
+                Shaadi.com, India’s No.1 Matchmaking and Matrimony Service*, was founded with a simple objective - to help people find happiness. Shaadi.com is a leader in what is sometimes known as the matrimony category, we have touched more than 50 million lives.s
+            </p>
+            <p class="pb-[20px]">
+                Shaadi.com - a trusted matrimonial & matchmaking service, has always differentiated itself from other matrimonials through its innovation-led approach by redefining the way Indian brides and grooms meet for marriage.      
+            </p>
+            <p class="pb-[20px]">
+                We have also created trusted and renowned community specific matrimony platforms such as TamilShaadi.com, TeluguShaadi.com, MalayaleeShaadi.com, KannadaShaadi.com, BengaliShaadi.com, GujaratiShaadi.com, MarathiShaadi.com, PunjabiShaadi.com and more that has changed the way of finding a life partner.
+            </p>
+            <p class="pb-[20px]">
+                Shaadi.com (sometimes mis-spelt as Shadi.com, Shadhi.com or Sadi.com) is a social networking site specialising in matchmaking and not just a matrimonial service.
+            </p>
+            <p class="italic"> 
+                * Based on the number of downloads in the last 12 months of the Shaadi.com App – as reported by AppTweak. 
+            </p>
+            <span class="text-[#00BCD5] hover:underline">Learn More <i class="fa-solid fa-caret-right text-[#A8A7AE]"></i></span>
+        </div>
+        <ul class="flex justify-center mt-[20px] text-[#00BCD5] text-[14px]">
+            <li class="hover:underline">India <span class="mx-[5px] text-[gray]">|</span></li>
+            <li class="hover:underline">USA <span class="mx-[5px] text-[gray]">|</span></li>
+            <li class="hover:underline">Canada <span class="mx-[5px] text-[gray]">|</span></li>
+            <li class="hover:underline">UK <span class="mx-[5px] text-[gray]">|</span></li>
+            <li class="hover:underline">Singapor <span class="mx-[5px] text-[gray]">|</span></li>
+            <li class="hover:underline">Australia <span class="mx-[5px] text-[gray]">|</span></li>
+            <li class="hover:underline">UAE <span class="mx-[5px] text-[gray]">|</span></li>
+            <li class="hover:underline">NRI Matrimonials</li>
+        </ul>
+        </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container mt-[50px] px-[130px] text-center">
+            <h1 class="bg-[#00BCD5] rounded-[4px_4px_0px_0px] p-[8px_20px] inline text-[white] font-[500] text-[18px]">Trusted by Millions</h1>
+            <div class="border-y mt-[6px] py-[15px]">
+                <ul class="flex justify-between px-[40px]">
+                    <li><p class="inline-block w-[40px] h-[40px] border-2 rounded-[50%]"> <i class="fa-solid fa-user-group pt-[10px] text-[red]"></i></p>
+                        <span class="ml-[10px] text-[#95959D]">Best Matches</span>
+                    </li>
+                    <li><p class="inline-block w-[40px] h-[40px] border-2 rounded-[50%]"><i class="fa-solid fa-shield pt-[12px] text-[red]"></i></p>
+                        <span class="ml-[10px] text-[#95959D]">Verified Profiles</span>
+                    </li>
+                    <li><p class="inline-block w-[40px] h-[40px] border-2 rounded-[50%] "><i class="fa-solid fa-lock pt-[10px] text-[red]"></i></p>
+                        <span class="ml-[10px] text-[#95959D]">100% Privacy</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container mt-[50px] grid lg:grid-cols-[1fr_1fr_1fr_1fr] gap-[30px] text-center">
+            <div>
+                <h5 class="border-b pb-[10px] text-[16px] text-[#51505d]">Need Help ?</h5>
+                <ul class="text-[#72727D] pt-[10px] text-[14px] font-[400]">          
+                    <li class="hover:underline">Member Login</li>
+                    <li class="hover:underline">Sign Up</li>
+                    <li class="hover:underline">Partner Search</li>
+                    <li class="hover:underline">How to Use Shaadi.com</li>
+                    <li class="hover:underline">Premium Memberships</li>
+                    <li class="hover:underline">Customer Support</li>
+                    <li class="hover:underline">Site Map</li>
+                </ul>
+            </div>
+            <div>
+                <h5 class="border-b pb-[10px] text-[16px] text-[#51505d]">Company</h5>
+                <ul class="text-[#72727D] pt-[10px] text-[14px] font-[400]">
+                    <li class="hover:underline">About Us</li>                    
+                    <li class="hover:underline">Shaadi Blog</li>
+                    <li class="hover:underline">Careers</li>
+                    <li class="hover:underline">Awards & Recognition</li>
+                    <li class="hover:underline"> Cov-Aid</li>
+                    <li class="hover:underline">Contact Us</li>
+                </ul>
+            </div>
+            <div>
+                <h5 class="border-b pb-[10px] text-[16px] text-[#51505d]">Privacy & You</h5>
+                <ul class="text-[#72727D] pt-[10px] text-[14px] font-[400]">
+                    <li class="hover:underline">Terms of Use</li>
+                    <li class="hover:underline">Privacy Policy</li>
+                    <li class="hover:underline">Be Safe Online</li>
+                    <li class="hover:underline">Report Misuse</li>
+                </ul>
+            </div>
+            <div>
+                <h5 class="border-b pb-[10px] text-[16px] text-[#51505d]">More</h5>
+                <ul class="text-[#72727D] pt-[10px] text-[14px] font-[400]">
+                    <li class="hover:underline">VIP Shaadi</li>
+                    <li class="hover:underline">Select Shaadi</li>
+                    <li class="hover:underline">Sangam</li>
+                    <li class="hover:underline">Shaadi Centres</li>
+                    <li class="hover:underline">Success Stories</li>
+                    <li class="hover:underline">Shaadi Live</li>
+                </ul>
+            </div>
+        </div>
+        <div class="bg-[#EEEEEE] py-[30px] mt-[80px]">
+            <div class="flex justify-between container">
+            <div>
+                <p class="text-[12px]">© 1996-2024 Shaadi.com, The World's Leading Matchmaking Service™</p>
+            </div>
+            <div>
+                <p class="text-[12px]">Passionately created by <span class="text-[#00BCD5]">People Group ➤ </span></p>
+            </div>
+        </div>
+    </div>
+    </footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script>
+        $('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            600:{
+                items:3,
+                nav:false
+            },
+            1000:{
+                items:3,
+                nav:true,
+                loop:true
+            }
+        }
+    })
+    </script>    
+<script src="./JS/app.js"></script> 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
